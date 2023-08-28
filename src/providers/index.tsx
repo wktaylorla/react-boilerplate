@@ -8,17 +8,15 @@ import GlobalStyles from '../styles/GlobalStyles';
 
 const queryClient = new QueryClient();
 
-const AppProvider = ({ children }: { children: ReactNode }) => {
-  return (
-    <>
-      <GlobalStyles />
-      <Provider store={store}>
-        <PersistGate loading={null} persistor={persistor}>
-          <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>
-        </PersistGate>
-      </Provider>
-    </>
-  );
-};
+const AppProvider = ({ children }: { children: ReactNode }) => (
+  <>
+    <GlobalStyles />
+    <Provider store={store}>
+      <PersistGate loading={null} persistor={persistor}>
+        <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>
+      </PersistGate>
+    </Provider>
+  </>
+);
 
 export default AppProvider;
