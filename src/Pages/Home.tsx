@@ -1,12 +1,9 @@
-import { useSelector } from "react-redux";
+import { useSelector } from 'react-redux';
 
-import useAppDispatch from "../hooks/redux/useAppDispatch";
+import useAppDispatch from '../hooks/redux/useAppDispatch';
 
-import { selectCounterValue } from "../features/counter/counterSelectors";
-import { increment } from "../features/counter/counterSlice";
-import reactLogo from "../assets/react.svg";
-import viteLogo from "/vite.svg";
-import "../App.css";
+import { selectCounterValue } from '../features/counter/counterSelectors';
+import { increment } from '../features/counter/counterSlice';
 
 function Home() {
   const count = useSelector(selectCounterValue);
@@ -14,14 +11,6 @@ function Home() {
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => dispatch(increment())}>count is {count}</button>
@@ -29,9 +18,7 @@ function Home() {
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <p className="read-the-docs">Click on the Vite and React logos to learn more</p>
     </>
   );
 }
