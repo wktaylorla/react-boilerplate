@@ -2492,6 +2492,11 @@ prelude-ls@^1.2.1:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
 
+prettier@3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.0.2.tgz#78fcecd6d870551aa5547437cdae39d4701dca5b"
+  integrity sha512-o2YR9qtniXvwEZlOKbveKfDQVyqxbEIWn48Z8m3ZJjBjcCmUy3xZGIv+7AkaeuaTr6yPXJjwv07ZWlsWbEy1rQ==
+
 proxy-from-env@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/proxy-from-env/-/proxy-from-env-1.1.0.tgz#e102f16ca355424865755d2c9e8ea4f24d58c3e2"
@@ -2763,6 +2768,11 @@ styled-components@^6.0.7:
     shallowequal "^1.1.0"
     stylis "^4.3.0"
     tslib "^2.5.0"
+
+styled-reset@^4.5.1:
+  version "4.5.1"
+  resolved "https://registry.yarnpkg.com/styled-reset/-/styled-reset-4.5.1.tgz#631aee45dcef871cab8b25da29271eafc494f694"
+  integrity sha512-6EvFWZRwaFRFxiPYMwmnzOe33rDkw5r9jIU0eEi49bkt6VSrvjeMp2ZOw/YFbw5SVs81llIY+5fzHtR2/VBZfQ==
 
 stylis@^4.3.0:
   version "4.3.0"
