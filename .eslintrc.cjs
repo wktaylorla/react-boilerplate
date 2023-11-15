@@ -37,5 +37,6 @@ module.exports = {
     ],
     'object-curly-newline': 'off' /* conflict with prettier option (printWidth: 120) */,
     'implicit-arrow-linebreak': 'off' /* conflict with prettier option (printWidth: 120) */,
+    'operator-linebreak': 'off' /* conflict with prettier option (printWidth: 120) */,
   },
 };
